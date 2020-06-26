@@ -1,7 +1,0 @@
-FROM,TO,DISTANCE,COST
-Seattle,New-York,2.5,0.12
-Seattle,Chicago,1.7,0.08
-Seattle,Topeka,1.8,0.09
-San-Diego,New-York,2.5,0.15
-San-Diego,Chicago,1.8,0.1
-San-Diego,Topeka,1.4,0.07
