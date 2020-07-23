@@ -2,6 +2,25 @@
 
 We extract data from Comma Separated Values (*.csv) files and adapt it to be used with [GLPK](https://www.gnu.org/software/glpk/). For our methodology, see the [notebooks](https://github.com/socd06/data_envelopment_analysis/tree/master/notebooks) and [scripts](https://github.com/socd06/data_envelopment_analysis/tree/master/scripts) folders.
 
+# notebooks
+## [Descriptive Statistics and Rankings](https://github.com/socd06/data_envelopment_analysis/tree/master/notebooks/statistics-and-rankings)
+
+Several cases were proposed to prepare the data obtained by the optimization pipeline:
+
+- a) [Clipping efficiencies to one](https://github.com/socd06/data_envelopment_analysis/tree/master/notebooks/statistics-and-rankings/clipping-over-max.ipynb).
+WWTP efficiencies should be within 0-1 but some were found slightly above 1. Clipping those values to 1 would be the most practical solution to prevent having invalid values in the ranking process.
+
+- b) [Ignoring efficiencies over one](https://github.com/socd06/data_envelopment_analysis/tree/master/notebooks/statistics-and-rankings/ignore-over-max.ipynb). This case considers values over 1 to be errors and excludes them from further analysis.
+
+- c) [Ignore zeros](https://github.com/socd06/data_envelopment_analysis/tree/master/notebooks/statistics-and-rankings/ignore-zeros.ipynb). This case excludes zeros from further analysis.
+
+- d) [Default case](https://github.com/socd06/data_envelopment_analysis/tree/master/notebooks/statistics-and-rankings/default.ipynb). All values given by the optimization pipeline are used to further describe and rank the WWTPs.
+
+- e) [Clipping values over one and ignoring zeros](https://github.com/socd06/data_envelopment_analysis/tree/master/notebooks/statistics-and-rankings/clip-max-ignore-zeros.ipynb). This case clips efficiencies to 1 and excludes any row with zeros.
+
+- f) [Ignoring values over one and zeros](https://github.com/socd06/data_envelopment_analysis/tree/master/notebooks/statistics-and-rankings/ignore-invalid.ipynb). This case excludes both efficiencies over 1 and rows with zeros.
+
+
 # License
 MIT License
 
