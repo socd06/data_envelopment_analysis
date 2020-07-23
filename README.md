@@ -1,8 +1,9 @@
----
-title: "Data Envelopment Analysis (DEA)"
-author: "EPonkratova"
-date: "December 28, 2018"
----
+# data_envelopment_analysis
+
+We extract data from Comma Separated Values (*.csv) files and adapt it to be used with [GLPK](https://www.gnu.org/software/glpk/). For our methodology, see the [notebooks](https://github.com/socd06/data_envelopment_analysis/tree/master/notebooks) and [scripts](https://github.com/socd06/data_envelopment_analysis/tree/master/scripts) folders.
+
+# License
+MIT License
 
 # Original project
 This project was forked from [EPonkratova's Data Envelopment Analysis](https://github.com/eponkratova/data_envelopment_analysis). See **our project** for details on our implementation.
@@ -17,9 +18,3 @@ The project was done to explore the optimiztion techniques, data envelopment ana
 The story behind the idea is @ https://medium.com/@eponkratova/whos-better-who-s-best-data-envelopment-analysis-a-non-mathematical-introduction-4986184f9ea3 (part 1), https://medium.com/@eponkratova/what-must-we-know-and-know-how-to-implement-and-interpret-data-envelopment-analysis-3517a6231be9 (part 2)
 
 The interactive visualization is available @ https://eponkratova.github.io/data_envelopment_analysis/
-
-# Our project
-We will extract data from Comma Separated Values (*.csv) files and adapt it to be used with [GLPK](https://www.gnu.org/software/glpk/). For our methodology, see the [notebooks](https://github.com/socd06/data_envelopment_analysis/tree/master/notebooks) and [scripts](https://github.com/socd06/data_envelopment_analysis/tree/master/scripts) folders.
-
-# License
-MIT LIcense
